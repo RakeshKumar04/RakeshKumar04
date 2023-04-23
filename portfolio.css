@@ -1,0 +1,285 @@
+.body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  background-color: #333;
+}
+
+.topnav{
+  order: 2;
+  background-color: #333;
+  overflow:hidden;
+}
+
+.topnav a{
+  float:left;
+  color:#f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover{
+  background-color: #ddd;
+  color:black;
+}
+
+.logo h2{
+  font-family: sans-serif;
+  font-size: 45px;
+  color: whitesmoke;
+  margin-left: 25px;
+}
+
+
+.hero{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 400px;
+  align-items: center;
+  margin-top: 80px;
+  background: rgb(201,255,240);
+background: linear-gradient(0deg, rgba(201,255,240,1) 15%, rgba(255,255,255,0.7088445516733023) 68%);
+}
+
+.herodetails{
+  order: 2;
+  margin-right: 60px;
+  font-family: 'poppins' sans-serif;
+}
+
+.herodetails h1{
+  font-size: 60px;
+  margin-bottom: 1px;
+  color: #333;
+}
+
+.herodetails p{
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.herodetails a{
+  display: inline-block;
+  text-decoration: none;
+  color: whitesmoke;
+  background: black;
+  padding: 10px 30px;
+  margin-top: 10px;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+.heroprofile{
+  order:1;
+  margin-left: 100px;
+}
+
+.heroprofile img{
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+.divider{
+  border-top: 3px solid rgba(255,255,255,0.7088445516733023);
+}
+
+
+
+.about{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 400px;
+  align-items: center;
+  margin-top: 10px;
+  background: rgb(255,255,255,0.7088445516733023);
+background: linear-gradient(0deg, rgba(255,255,255,1) 15%, rgba(201,255,240) 68%);
+}
+
+.aboutright{
+  order: 2;
+  margin-right: 100px;
+}
+
+.aboutleft{
+  order: 1;
+  margin-left: 85px;
+}
+
+.cards {
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.headers {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.bodys {
+  padding: 20px;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.skill-name {
+  width: 120px;
+  font-size: 16px;
+}
+
+.skill-level {
+  width: 160px;
+  height: 10px;
+  background-color: #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: 20px;
+}
+
+.skill-percent {
+  background-color: #333;
+  height: 100%;
+}
+
+.skill-percent-number {
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 350px;
+  align-items: center;
+  margin-top: 50px;
+  background: rgb(201,255,240);
+background: linear-gradient(0deg, rgba(201,255,240,1) 15%, rgba(255,255,255,0.7088445516733023) 68%);
+}
+
+.cardse {
+  width: 150px;
+  height: 200px;
+  background-color: #fff;
+  box-shadow: 20px 15px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+  margin: 60px;
+  border: 2px solid black;
+}
+
+.proh{
+  text-align: center;
+  color: black;
+}
+
+.proa{
+  display: inline-block;
+  text-decoration: none;
+  color: whitesmoke;
+  background: black;
+  padding: 10px 30px;
+  margin-top: 10px;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 650px;
+  align-items: center;
+  margin-top: 10px;
+  background: rgb(255,255,255,0.7088445516733023);
+background: linear-gradient(0deg, rgba(255,255,255,1) 15%, rgba(201,255,240) 68%);
+}
+
+.contactcard{
+  width: 450px;
+  height: 550px;
+  background-color: #fff;
+  box-shadow: 20px 15px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+  margin: 60px;
+  margin-top: 80px;
+  border: 2px solid black;
+}
+
+.contactcardr{
+  width: 350px;
+  height: 300px;
+  background-color: #fff;
+  box-shadow: 20px 15px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+  margin: 60px;
+  margin-top: 10px;
+  border: 2px solid black;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=email], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: grey;
+}
+
+.label{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
