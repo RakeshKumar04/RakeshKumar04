@@ -1,5 +1,6 @@
 # 💫 About Me:
-I'm currently pursuing UG in Electronics and Communication Engineering. I'm passionate on Software Development and Methodologies to build real world applications.
+I'm currently pursuing UG in Electronics and Communication Engineering. 
+I'm passionate on Software Development and Methodologies to build real world applications.
 
 
 ## 🌐 Socials:
